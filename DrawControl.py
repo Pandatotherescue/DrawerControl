@@ -15,7 +15,7 @@ app = Flask(__name__)
 # GPIO Setup
 LOCK_PIN = 17
 SENSOR_PIN = 27
-API_ENDPOINT = "http://179.61.246.200:4000/logs"
+API_ENDPOINT = "http://10.176.69.180:4000/logs"
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(LOCK_PIN, GPIO.OUT)
